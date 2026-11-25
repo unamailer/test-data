@@ -1851,10 +1851,10 @@
    renderUUID();
 
    /* ---------- links ---------- */
-   //internal = our own hosts (or a relative link); everything else is external
+   //internal = your own hosts (or a relative link); change "example" to your domain(s), e.g. (example|mycompany)
    function isInternal(l){
     var u = l.url || l.envs[Object.keys(l.envs)[0]];
-    return !/^https?:/i.test(u) || /(^|\.)(marketamerica|unfranchise)\.com$/i.test(new URL(u).hostname);
+    return !/^https?:/i.test(u) || /(^|\.)(example)\.com$/i.test(new URL(u).hostname);
    }
    function renderLinks(){
     var ul = $("links");
