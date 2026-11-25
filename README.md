@@ -2,6 +2,8 @@
 
 A developer toolbox for generating test data. It's a single self-contained HTML file with no build step, no dependencies to install, and no server-side code.
 
+**Live:** https://unamailer.github.io/test-data/
+
 ## What's in it
 
 - **Tax IDs:** checksum-valid IDs for 12 countries (AUS TFN, CAN SIN, CHN Resident ID, ESP DNI, GBR NINO, HKG HKID, IDN NPWP, MEX RFC, MYS MyKad, SGP NRIC, TWN National ID, USA SSN), with a Raw / Formatted switch.
